@@ -5,4 +5,6 @@
     <developer>Vesta Web Interface</developer>
     <version>0.1.0</version>
     <admin-only>No</admin-only>
+    <new-tab>No</new-tab>
+    <hide>No</hide>
 </plugin>
