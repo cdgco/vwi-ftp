@@ -1,5 +1,5 @@
 <?php
-require( '../../includes/config.php');
+require( '../../includes/includes.php');
 
 $ftpHost = VESTA_HOST_ADDRESS;
 $ftpPort = "21";
