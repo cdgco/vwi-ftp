@@ -4,7 +4,7 @@ Web FTP Client Plugin for Vesta Web Interface
 Installation Instructions:
 
 1. Upload the 'ftp' folder to the 'plugins' folder of your VWI installation.
-2. Edit the VWI config file (includes/config.php) and add "ftp" to the plugins section below "Integrations".
+2. Edit the VWI settings and add "ftp" to the plugins list.
 
 [Project Home](https://github.com/cdgco/vestawebinterface)
 
