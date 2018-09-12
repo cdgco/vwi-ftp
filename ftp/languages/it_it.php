@@ -13,7 +13,7 @@ $lang_title_errors = "Si sono verificati degli errori";
 $lang_session_expired = "Sessione scaduta";
 $lang_ip_conflict = "Il tuo indirizzo IP e' in conflitto con l'IP della sessione";
 // Translation required (start)
-$lang_token_conflict = "Possible CSRF detected";
+$lang_token_conflict = "Possibile CSRF rilevato";
 // Translation required (end)
 
 $lang_btn_login = "Accesso";
@@ -33,11 +33,11 @@ $lang_skins_empty = "[skins] cartella vuota!";
 $lang_skins_locked = "[skins] cartella bloccata!";
 $lang_skins_missing = "[skins] cartella mancante!";
 
-$lang_missing_fields = "Error! Please complete all the marked fields";
-$lang_max_logins = "You have exceeded the allowed login attempts and have been locked out. Please try again in [n] minutes";
-$lang_cant_connect = "Error! Couldn't connect to FTP host";
-$lang_cant_authenticate = "Error! Couldn't authenticate your login";
-$lang_ip_conflict = "An IP conflict has been detected";
+$lang_missing_fields = "Errore! Si prega di compilare tutti i campi contrassegnati";
+$lang_max_logins = "Hai superato i tentativi di accesso consentiti e sei stato bloccato. Si prega di riprovare tra [n] minuti";
+$lang_cant_connect = "Errore! Impossibile connettersi all'host FTP";
+$lang_cant_authenticate = "Errore! Impossibile autenticare il tuo User";
+$lang_ip_conflict = "E' stato rilevato un conflitto di IP";
 
 $lang_table_name = "Nome";
 $lang_table_size = "Dimensione";
@@ -74,7 +74,7 @@ $lang_btn_upload_repeat = "Ripeti caricamento";
 $lang_btn_upload_folder = "Carica cartella";
 
 // Translation required (start)
-$lang_info_version = "Version";
+$lang_info_version = "Versione";
 // Translation required (end)
 $lang_info_host = "Server";
 $lang_info_user = "Utente";
@@ -151,11 +151,11 @@ $lang_context_delete = "Cancella";
 $lang_context_chmod = "Chmod";
 
 // Translation required (start)
-$lang_title_fetch_file = "Fetch File";
-$lang_fetch_no_file = "The URL does not contain a file name.";
-$lang_fetch_not_found = "No file could be found at this address.";
-$lang_btn_fetch = "Fetch";
-$lang_btn_fetch_file = "Fetch File";
+$lang_title_fetch_file = "Recupero file";
+$lang_fetch_no_file = "L'URL non contiene un nome di file.";
+$lang_fetch_not_found = "Nessun file puo' essere trovato in questo indirizzo.";
+$lang_btn_fetch = "Recupero";
+$lang_btn_fetch_file = "Recupero file";
 // Translation required (end)
 
 ?>
