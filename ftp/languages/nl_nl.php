@@ -1,19 +1,19 @@
 <?php
 
-// Language: Dutch~Nederlands (NL)
+// Language: Dutch-Nederlands (NL)
 // Author: Ben (De Vries ICT)
-// Author: Stefan (https://itsstefan.eu)
-// Last Updated: 13 September, 2018
+// Author: Stefan (Illusions162)
+// Last Updated: 30 September, 2019
 
 $file_lang_name = "Nederlands (NL)";
-$file_lang_default = 0; // 1 for default, 0 for not
+$file_lang_default = 0; // 1 voor standaard, 0 voor normaal.
 
-$lang_title_ended = "Sessie beëindigd";
-$lang_title_errors = "Er is een fout opgetreden";
+$lang_title_ended = "Sessie beeindigd";
+$lang_title_errors = "Er zijn fouten opgetreden";
 
-$lang_session_expired = "Uw sessie is verlopen";
-$lang_ip_conflict = "Uw IP-adres geeft een conflict met het de sessie IP-adres";
-$lang_token_conflict = "Mogelijke fout opgetreden";
+$lang_session_expired = "Uw sessie is vervallen";
+$lang_ip_conflict = "Uw IP-adres geeft een conflict met de sessie IP";
+$lang_token_conflict = "Mogelijke CSRF gedetecteerd";
 
 $lang_btn_login = "Login";
 $lang_ftp_host = "FTP Host";
@@ -23,7 +23,7 @@ $lang_username = "Gebruikersnaam";
 $lang_password = "Wachtwoord";
 $lang_ftp_ssl = "Verbind met SSL (indien beschikbaar)";
 $lang_adv_interface = "Geavanveerde interface";
-$lang_save_login = "Inlog details opslaan";
+$lang_save_login = "Inlogdetails opslaan";
 $lang_language = "Taal";
 $lang_skin = "Skin";
 $lang_ip_check = "Zet sessie vast op IP";
@@ -64,7 +64,7 @@ $lang_btn_logout = "Log uit";
 $lang_btn_save = "Opslaan";
 $lang_btn_close = "Sluit";
 $lang_btn_cancel = "Annuleer";
-$lang_btn_ok = "OK";
+$lang_btn_ok = "Bevestig";
 $lang_btn_new_folder = "Nieuwe map";
 $lang_btn_new_file = "Nieuw bestand";
 $lang_btn_upload_file = "Upload bestand";
@@ -75,8 +75,8 @@ $lang_btn_upload_folder = "Upload map";
 $lang_info_version = "Versie";
 $lang_info_host = "Host";
 $lang_info_user = "Gebruiker";
-$lang_info_upload_limit = "Upload limiet";
-$lang_info_drag_drop = "Slepen & uploaden";
+$lang_info_upload_limit = "Upload Limiet";
+$lang_info_drag_drop = "Drag & Drop";
 
 $lang_xfer_file = "Bestand";
 $lang_xfer_size = "Grootte";
@@ -87,10 +87,10 @@ $lang_xfer_rate = "Dataoverdracht";
 $lang_xfer_remain = "Resterende tijd";
 
 $lang_move_conflict = "Doelmap is een submap van de bronmap";
-$lang_cant_rename = "Het is niet mogelijk om [file] te hernoemen";
-$lang_cant_delete = "Het is niet mogelijk om [file] te verwijderen!";
+$lang_cant_rename = "Onmogelijk te hernoemen [file]";
+$lang_cant_delete = "Onmogelijk te verwijderen [file]";
 
-$lang_folder_exists = "Map [folder] bestaat al";
+$lang_folder_exists = "Map [folder] bestaal reeds";
 $lang_folder_doesnt_exist = "Map [folder] bestaat niet";
 $lang_folder_cant_move = "Onmogelijk te verplaatsen [folder]";
 $lang_folder_cant_delete = "Onmogelijk te verwijderen [folder]";
@@ -118,24 +118,24 @@ $lang_chmod_manual = "Handleiding";
 $lang_chmod_read = "Lees";
 $lang_chmod_write = "Schrijf";
 $lang_chmod_exe = "Uitvoeren";
-$lang_chmod_no_support = "Uw PHP-server ondersteund geen ftp_chmod";
+$lang_chmod_no_support = "Uw server ondersteund geen ftp_chmod";
 
 $lang_title_rename = "Hernoem bestanden";
 $lang_title_chmod = "Verander bestandseigenschappen";
-$lang_title_edit_file = "Bewerken";
+$lang_title_edit_file = "Muteren";
 $lang_title_new_file = "Nieuw bestand";
 $lang_title_new_folder = "Nieuwe map";
 $lang_new_folder_name = "Vul de nieuwe mapnaam in...";
 $lang_new_file_name = "Vul de nieuwe bestandsnaam in...";
-$lang_template = "Thema";
-$lang_no_template = "Geen thema";
+$lang_template = "Sjabloon";
+$lang_no_template = "Geen sjabloon";
 
 $lang_no_xmlhttp = "Uw browser ondersteund geen XMLHTTP!";
 $lang_support_drop = "Ondersteund";
 $lang_no_support_drop = "Niet ondersteund";
 $lang_transfer_pending = "Wachtende";
 $lang_transferring_to_ftp = "Verplaatsing naar FTP-server...";
-$lang_no_file_selected = "Geen bestand geselecteerd";
+$lang_no_file_selected = "Klik BROWSE/ZOEK en kies een bestand om te uploaden!";
 $lang_none_selected = "Kies op zijn minste een bestand of map!";
 $lang_context_open = "Open";
 $lang_context_download = "Download";
@@ -147,10 +147,9 @@ $lang_context_rename = "Hernoem";
 $lang_context_delete = "Verwijder";
 $lang_context_chmod = "Chmod";
 
-$lang_title_fetch_file = "Bestand ophalen";
-$lang_fetch_no_file = "De link bevat geen bestandsnaam";
-$lang_fetch_not_found = "Kan de folder niet vinden";
+$lang_title_fetch_file = "Bestand ophalen.";
+$lang_fetch_no_file = "De URL bevat geen bestandsnaam.";
+$lang_fetch_not_found = "Geen bestand gevonden op de locatie.";
 $lang_btn_fetch = "Ophalen";
 $lang_btn_fetch_file = "Bestand ophalen";
-
 ?>
