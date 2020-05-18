@@ -1,9 +1,9 @@
 <plugin>
     <name>FTP</name>
-    <fa-icon> fa-file</fa-icon>
+    <fa-icon>fa-file</fa-icon>
     <section>apps</section> 
     <developer>Vesta Web Interface</developer>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <admin-only>No</admin-only>
     <new-tab>No</new-tab>
     <hide>No</hide>

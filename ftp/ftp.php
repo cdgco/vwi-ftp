@@ -336,14 +336,16 @@ function attemptLogin()
 
 function displayHeader()
 {
+    global $sitetitle; global $cpfavicon;
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php include_once '../../includes/config.php'; echo SITE_NAME; ?> - <?php echo _("FTP"); ?></title>
+    <title><?php echo $sitetitle . ' - ' . _("FTP"); ?></title>
     <link href="css/style.css?<?php echo date("U"); ?>" rel="stylesheet" type="text/css">
     <link href="css/colors.css?<?php echo date("U"); ?>" rel="stylesheet" type="text/css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/ico" href="../../plugins/images/<?php echo $cpfavicon; ?>">
 </head>
 <body <?php
     if ($_POST["login"] == 1) {

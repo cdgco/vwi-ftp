@@ -1,8 +1,9 @@
 <?php
 
 # Open README file for descriptions and help.
+require( '../../../includes/includes.php');
 
-$ftpHost = "185.157.234.38";
+$ftpHost = $config["VESTA_HOST_ADDRESS"];
 $ftpPort = "21";
 $ftpMode = "1";
 $ftpSSL  = "0";
