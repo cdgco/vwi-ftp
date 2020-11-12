@@ -4,7 +4,8 @@ $version = "1.8.8";
 session_start();
 require( '../../includes/includes.php');
 
-$ftpHost = VESTA_HOST_ADDRESS;
+if(array_key_exists('VESTA_HOST_ADDRESS', $GLOBALS)) { $ftpHost = VESTA_HOST_ADDRESS; }
+else { $ftpHost = HESTIA_HOST_ADDRESS; }
 $ftpPort = "21";
 $ftpMode = "1";
 $ftpSSL  = "0";
