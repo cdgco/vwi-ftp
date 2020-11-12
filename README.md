@@ -1,5 +1,5 @@
-# VWI FTP - Monsta FTP
-Web FTP Client Plugin for Vesta Web Interface
+# Monsta FTP Plugin
+Web FTP Client Plugin for Vesta / Hestia Web Interface
 
 Installation Instructions:
 
